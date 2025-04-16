@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const BACKEND_URL = "https://pollo-f30l.onrender.com"|| 'http://localhost:5000'; // Replace with your Render backend URL after deployment
+const BACKEND_URL = "https://pollo-f30l.onrender.com"; // Replace with your Render backend URL after deployment
 
 function App() {
   const [message, setMessage] = useState('');
